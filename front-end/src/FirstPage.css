@@ -1,0 +1,51 @@
+.container{
+    align-items: center;
+    background-color: aliceblue;
+    margin: 0 auto;
+    width: 500px;
+}
+.container h1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    display:block;
+    margin: 20px auto;
+}
+.container h2{
+    font-size: 20px;
+    margin: 30px 30px;
+}
+.container ul {
+    list-style: none;
+}
+.container ul li{
+    width:300px;
+    border-radius: 10px;
+    border:2px solid gray;
+    margin: 10px auto;
+    padding:10px;
+    cursor:pointer;
+}
+
+.container .button{
+    text-align: center;
+    width:100px;
+    font-size: 20px;
+    padding:7px;
+    margin:20px 180px;
+    background:purple;
+    color: #fff;
+    border-radius: 15px;
+    cursor:pointer;
+}
+.container .index{
+    text-align: center;
+    font-size:18px;
+    padding:20px;
+}
+.wrong{
+    background-color:red;
+}
+.correct{
+    background-color:green;
+}
